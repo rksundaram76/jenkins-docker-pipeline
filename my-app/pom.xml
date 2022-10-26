@@ -91,9 +91,11 @@
       </plugin>
       <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
+	  <version>3.8.0</version>
           <configuration>
-              <source>1.11</source>
-              <target>1.11</target>
+              <!--<source>1.11</source>
+              <target>1.11</target>-->
+              <release>11</release>  <!--or <release>10</release>-->
               <fork>true</fork>
               <!-- Add all the checkers you want to enable here -->
               <annotationProcessors>
