@@ -9,6 +9,7 @@ public class App
     public static void main( String[] args )
     {
         System.out.println( "Hello World! Jenkins Amazing!!!!" );
+        System.out.println( "Hello World! Jenkins Amazing 123123!!!!" );
         System.out.println("A NullPointerException is a drag...");
         
         Object myObject = null;
